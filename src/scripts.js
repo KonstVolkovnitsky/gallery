@@ -7,8 +7,8 @@ const showImg = (event) => {
   event.preventDefault();
     let target = event.target;
     if (target.tagName !== "IMG") {
-       return;
+      return;
     }
       largeImg.src = target.parentNode.href;
    }
- thumbs.addEventListener('click', showImg);
+thumbs.addEventListener('click', showImg);
